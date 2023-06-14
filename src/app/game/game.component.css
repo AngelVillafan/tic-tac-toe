@@ -1,0 +1,42 @@
+.main-container .gameboard .gamefield {
+    max-width: 300px;
+}
+
+.main-container .gameboard .gamefield .subfield {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+}
+
+.main-container .gameboard {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.main-container .gameboard .player-one p {
+    color: #53a353;
+}
+
+.main-container .gameboard .player-two p {
+    color: #e66d6d;
+}
+
+.gameboard .gamefield .player-one {
+    background-color: #53a353;
+    background-image: url(./o.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gameboard .gamefield  .player-two {
+    background-color: #e66d6d;
+    background-image: url(./x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
